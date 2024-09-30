@@ -33,7 +33,7 @@ jobs:
           
   job2:
     name: segunda tarefa 
-    runs-on: ubunto-latest # outra maquina virtual linux para executar as tarefas
+    runs-on: ubuntu-latest # outra maquina virtual linux para executar as tarefas
       # vamos incluir alguns passos para o segundo job
     steps:
         - name: Passo 4
